@@ -1,0 +1,65 @@
+.lead_form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .emoji_item {
+    width: 32px;
+    height: 32px;
+  }
+  .upload_item {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    input {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0;
+    }
+  }
+  .lead__chat_input {
+    position: relative;
+    padding: 2px 11px;
+    border-radius: 30px;
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    transition: all 0.2s;
+    color: rgba(0, 0, 0, 0.88);
+    overflow: hidden;
+    &:hover {
+      border-color: #08a1f7;
+    }
+    .arrow_item {
+      position: absolute;
+      top: 50%;
+      bottom: 50%;
+      transform: translate(-50%, -50%);
+      right: 0;
+      width: 32px;
+      height: 32px;
+    }
+    input {
+      width: 100%;
+      color: rgba(0, 0, 0, 0.88);
+      padding: 5px 45px 5px 10px;
+      &:hover {
+        border-color: #08a1f7;
+      }
+      &::placeholder {
+        font-size: 15px;
+        font-weight: 400;
+        color: #bfbfbf;
+      }
+    }
+  }
+}

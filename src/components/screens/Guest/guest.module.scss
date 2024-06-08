@@ -1,0 +1,31 @@
+.guest {
+  padding: 10px;
+  background-color: #eef2f6;
+  height: 100vh;
+  &__container {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    .logo {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 20px;
+      img {
+        max-width: 100px;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    li {
+      h2 {
+        font-weight: 700;
+        padding-bottom: 7px;
+      }
+    }
+  }
+}

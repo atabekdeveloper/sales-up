@@ -1,0 +1,61 @@
+.ant-drawer-body {
+  padding: 0px !important;
+  overflow-x: hidden !important;
+}
+.ant-input-number-group-wrapper {
+  width: 100% !important;
+}
+.ant-input-number {
+  width: 100% !important;
+}
+.ant-drawer-content-wrapper {
+  box-shadow: none !important;
+}
+.ant-menu {
+  border-inline-end: none !important;
+}
+.ant-menu-item-group-title {
+  font-weight: 500 !important;
+}
+.ant-menu-item-selected {
+  .ant-menu-title-content {
+    font-weight: 500 !important;
+  }
+}
+.ant-table-content {
+  &::-webkit-scrollbar {
+    height: 6px !important;
+  }
+  &::-webkit-scrollbar-track {
+    background: #fff !important;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1 !important;
+    border-radius: 20px !important;
+  }
+}
+.ant-table-title {
+  border-bottom: 1px solid #eee;
+}
+.ant-pagination {
+  background-color: #fff;
+  padding: 12px 10px;
+  border-radius: 0 0 8px 8px;
+  margin: 0px !important;
+}
+.ant-drawer-header {
+  padding: 10px 0 !important;
+  margin-bottom: 10px !important;
+}
+.ant-drawer-footer {
+  padding: 8px 0px !important;
+}
+.ant-drawer-header-title {
+  align-items: self-end !important;
+}
+.ant-form-item {
+  margin-bottom: 12px !important;
+}
+.ant-pagination-options {
+  display: none !important;
+}

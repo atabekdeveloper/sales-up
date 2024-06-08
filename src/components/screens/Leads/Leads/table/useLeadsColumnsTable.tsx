@@ -81,13 +81,13 @@ export const useLeadsColumnsTable = () => {
       width: 150,
       render: (_, r) => (
         <Space>
-          <Tooltip title="Комменты">
+          {/* <Tooltip title="Комменты">
             <UiButton
               icon={<FaRegComment />}
               onClick={() => navigate(`/leads/${r.id}/${r.first_name}`)}
               aria-label="Comment"
             />
-          </Tooltip>
+          </Tooltip> */}
           <Tooltip title="Изменить">
             <UiButton
               color="#FFC108"

@@ -31,6 +31,7 @@ export const useAdminUsersColumnsTable = () => {
       key: 'action',
       align: 'end',
       width: 100,
+      hidden: true,
       render: (_, r) => (
         <Space>
           <Tooltip title="Изменить">
